@@ -1,0 +1,123 @@
+@import 'null.css'; 
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+/* font-family: 'Rowdies', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+/*============== общие записи=========== */
+.wraper {
+    min-height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1024px;
+}
+.icon__footer{
+    width: 300px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+/* ======================================= */
+
+.header__big-title {
+    margin: 40px 0;
+    text-transform: uppercase;
+}
+.header__title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+    display: inline-block;
+}
+.header__icon {
+    width: 50px;
+    margin: 0px 30px 0 40px;
+    border: 3px solid black;
+}
+.header__subtitle {
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+    display: inline-block;
+}
+
+.header__list {
+    font-size: 17px;
+}
+.header__list-item {
+    display: inline-block;
+    margin:0 30px 30px 0;
+}
+.header__list-link {
+    color: #000;
+}
+.header__bg {
+    margin-bottom: 50px;
+}
+.header__footer-logo{
+    width: 250px;
+}
+
+.info__title,.young__title,.club__title,.club__title-sporting,.club__title-mu,.club__title-real,.club__title-juve,.portugal__title,
+.records__title,.statistic__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.info__paragraph,.young__paragraph,.club__paragraph,.portugal__paragraph,.records__paragraph{
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.info__paragraph span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.young__logo{
+    margin-left: 131px;
+    margin-bottom: 50px;
+}
+.info__logo,.club__sporting-logo,.club__mu-logo,.club__real-logo,.club__juve-logo,.portugal__logo,.records__logo,.statistic__logo {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.records__list-icon{
+    width: 20px;
+    margin-right: 10px;
+}
+.records__subtitle,.statistic__subtitle {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.records__list {
+    margin-bottom: 20px;
+}
+.records__list-item {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.footer__title,.footer__subtitle{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footer__subtitle{
+    font-size: 14px;
+}
+.footer__subtitle a{
+    color: #000;
+}
